@@ -13,7 +13,7 @@
 ### 2. Delete item
 #### 2.1 eg1:
 ![delete item](./public/readme-img/deleteTest1.jpg)
-![delete item1-2](./public/readme-img/deleteTest1-2.jpg)
+![delete item1-2](./public/readme-img/deleteTest1-1.jpg)
 
 
 #### 2.2 eg2:
