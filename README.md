@@ -7,7 +7,7 @@
 ### 1. Add item
 #### 1.1 eg1:
 ![add item](./public/readme-img/addTest1.jpg)
-![add item1-2](./public/readme-img/addTest1-2.jpg)
+![add item1-2](./public/readme-img/addtest1-2.jpg)
 
 
 ### 2. Delete item
