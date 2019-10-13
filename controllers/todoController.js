@@ -7,11 +7,11 @@ mongoose.connect('mongodb+srv://Tien:Mengduonao890@cluster0-96sec.mongodb.net/te
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
-
+//schema对象
 var todoSchema = new mongoose.Schema({
     item: String
 })
-
+//将schema对象转换为数据模型
 var Todo = mongoose.model('Todo', todoSchema);
 
 module.exports = function(app) {
