@@ -1,10 +1,20 @@
 var express = require('express');
-var todoController = require('./controllers/todoController');
 var app = express();
 
-app.set('view engine', 'ejs');   //设置模板引擎
-app.use(express.static('./public'));
-todoController(app);
-app.listen(3000);
+//引入controller模块
+var todoController = require('./controllers/todoController');
 
-console.log('You are listening  to port 3000');
+
+//设置模板引擎
+app.set('view engine', 'ejs');   
+
+//静态路径
+app.use(express.static('./public'));
+
+//路由
+todoController(app);
+
+//监听端口
+app.listen(3000,function(){
+    console.log('You are listening  to port 3000');
+});
