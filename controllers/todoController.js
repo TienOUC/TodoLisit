@@ -2,12 +2,7 @@ var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 var mongoose = require('mongoose');
-//mongoDB cloud
-// mongoose.connect('mongodb://localhost/my_database')  // changes as follows:
-// mongoose.connect('mongodb+srv://Tien:Mengduonao890@cluster0-96sec.mongodb.net/test?retryWrites=true&w=majority', {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true
-// });
+
 
 //本地mongoDB 
 mongoose.connect('mongodb://localhost/todoList', {useNewUrlParser: true, useUnifiedTopology: true});
